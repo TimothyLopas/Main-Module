@@ -1,6 +1,8 @@
 *** Settings ***
-Documentation     Template robot main suite.
+Documentation     This is a robot built using a sub module
+Resource          Sub-Module/Keywords/keywords.robot
 
 *** Tasks ***
 Minimal task
-    Log    Done.
+    Imported HW
+    Log    Main robot file complete.
